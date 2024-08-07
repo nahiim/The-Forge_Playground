@@ -15,9 +15,9 @@ In the samples directory you will find a few pre-written samples including a com
 Create a new sample to play with by running `new_sample.bat`.
 
 ### Shaders
-Compile all shaders of a particular sample by running `compile_shaders.bat` in the solution directory. The shaders are in the `shaders` of the solution directory.
+Compile all shaders of a particular sample by running `compile_shaders.bat` in the solution directory. The shaders are in the `shaders` folder of the solution directory.
 It uses GLSL and the file extensions must be `.vert`, `.frag` and `.comp` for vertex, fragment and compute shaders respectively otherwise the script won't compile it.
-Your shaders should also be in the `shaders` of the solution directory otherwise the script won't compile it.
+Your shaders should also be in the `shaders` folder of the solution directory otherwise the script won't compile it.
 If you want to write HLSL or FSL shaders you can do that and compile them in your own way. I made this because I find it convenient for myself.
 
 
