@@ -1,0 +1,3 @@
+192.168.0.1
+6543
+C:\Dev\CONFETTI\The-Forge\Examples_3\Unit_Tests\PC Visual Studio 2019\x64\Debug\Intermediate\01_Transformations

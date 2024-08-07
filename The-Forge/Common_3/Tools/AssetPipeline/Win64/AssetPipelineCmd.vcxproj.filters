@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Prospero\Common_3\Tools\AssetPipeline">
+      <UniqueIdentifier>{0c879523-f17f-4598-9f24-812441a8828c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prospero\Common_3\Tools">
+      <UniqueIdentifier>{c23a4fa7-e8c9-4018-b1d9-fbb1c36c0842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prospero\Common_3">
+      <UniqueIdentifier>{d8217cfa-f363-4b02-88fa-a35d09403e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prospero">
+      <UniqueIdentifier>{498a82f8-0079-4935-a4a1-74ea7a783cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xbox\Common_3\Tools\AssetPipeline">
+      <UniqueIdentifier>{2b488841-8172-4ab0-be44-6fb914588f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xbox\Common_3\Tools">
+      <UniqueIdentifier>{7606a01b-c5c1-4490-97c8-5c7711b4551e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xbox\Common_3">
+      <UniqueIdentifier>{57155bab-21da-4970-9fc1-6204bc812eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xbox">
+      <UniqueIdentifier>{d907bc28-e25c-465e-8f36-8ce218acaa24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\OS\Windows">
+      <UniqueIdentifier>{b6cc8caa-278d-4621-b407-3bd6818d9816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\OS">
+      <UniqueIdentifier>{e2feba57-6897-4474-a485-f0fb6344c889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3">
+      <UniqueIdentifier>{78675258-79ef-4b7c-9ca0-a1d4f0ddfcb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Resources\AnimationSystem\ThirdParty\OpenSource\TressFX">
+      <UniqueIdentifier>{f18d3505-df4a-4ed7-9f26-86d3dd1b6555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Resources\AnimationSystem\ThirdParty\OpenSource">
+      <UniqueIdentifier>{c53b5a8b-3baf-4521-8b8d-6f7c42f0324c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Resources\AnimationSystem\ThirdParty">
+      <UniqueIdentifier>{3f68c037-e8e8-4053-986b-1c1de1130609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Resources\AnimationSystem">
+      <UniqueIdentifier>{78eac248-1ad1-4a1b-aca5-991a00301da4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Resources">
+      <UniqueIdentifier>{6d4f298a-4555-404c-b4a3-315105d8a819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Tools\ThirdParty\OpenSource\meshoptimizer\src">
+      <UniqueIdentifier>{95480503-9be5-4610-add0-af6797ef2c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Tools\ThirdParty\OpenSource\meshoptimizer">
+      <UniqueIdentifier>{61a61533-f110-477e-8897-a8a275fd39a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Tools\ThirdParty\OpenSource">
+      <UniqueIdentifier>{c3581767-81a3-4d35-aa5f-ebeb66215e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Tools\ThirdParty">
+      <UniqueIdentifier>{ff104f14-e849-4a84-8ed1-8c55808b5757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Tools">
+      <UniqueIdentifier>{814a736c-6b31-4e08-a68e-822000cbf1fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Utilities\FileSystem">
+      <UniqueIdentifier>{4672bc9a-6cbd-465c-87e0-86cdd5715019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Utilities">
+      <UniqueIdentifier>{da9203b0-ae35-42a4-8361-5729e3a0d409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Tools\AssetPipeline\src">
+      <UniqueIdentifier>{e9a074ce-b926-440b-8bde-72da1bf51203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Tools\AssetPipeline">
+      <UniqueIdentifier>{6f766b23-d529-4fab-b90b-a995f6f28a54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Prospero\Common_3\Tools\AssetPipeline\AssetPipeline_TexturesGnf.cpp">
+      <Filter>Prospero\Common_3\Tools\AssetPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Xbox\Common_3\Tools\AssetPipeline\AssetPipeline_TexturesXbox.cpp">
+      <Filter>Xbox\Common_3\Tools\AssetPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OS\Windows\WindowsToolsFileSystem.cpp">
+      <Filter>Common_3\OS\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Resources\AnimationSystem\ThirdParty\OpenSource\TressFX\TressFXAsset.cpp">
+      <Filter>Common_3\Resources\AnimationSystem\ThirdParty\OpenSource\TressFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\OpenSource\meshoptimizer\src\allocator.cpp">
+      <Filter>Common_3\Tools\ThirdParty\OpenSource\meshoptimizer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\OpenSource\meshoptimizer\src\clusterizer.cpp">
+      <Filter>Common_3\Tools\ThirdParty\OpenSource\meshoptimizer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\OpenSource\meshoptimizer\src\indexcodec.cpp">
+      <Filter>Common_3\Tools\ThirdParty\OpenSource\meshoptimizer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\OpenSource\meshoptimizer\src\indexgenerator.cpp">
+      <Filter>Common_3\Tools\ThirdParty\OpenSource\meshoptimizer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\OpenSource\meshoptimizer\src\overdrawanalyzer.cpp">
+      <Filter>Common_3\Tools\ThirdParty\OpenSource\meshoptimizer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\OpenSource\meshoptimizer\src\overdrawoptimizer.cpp">
+      <Filter>Common_3\Tools\ThirdParty\OpenSource\meshoptimizer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\OpenSource\meshoptimizer\src\simplifier.cpp">
+      <Filter>Common_3\Tools\ThirdParty\OpenSource\meshoptimizer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\OpenSource\meshoptimizer\src\spatialorder.cpp">
+      <Filter>Common_3\Tools\ThirdParty\OpenSource\meshoptimizer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\OpenSource\meshoptimizer\src\stripifier.cpp">
+      <Filter>Common_3\Tools\ThirdParty\OpenSource\meshoptimizer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\OpenSource\meshoptimizer\src\vcacheanalyzer.cpp">
+      <Filter>Common_3\Tools\ThirdParty\OpenSource\meshoptimizer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\OpenSource\meshoptimizer\src\vcacheoptimizer.cpp">
+      <Filter>Common_3\Tools\ThirdParty\OpenSource\meshoptimizer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\OpenSource\meshoptimizer\src\vertexcodec.cpp">
+      <Filter>Common_3\Tools\ThirdParty\OpenSource\meshoptimizer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\OpenSource\meshoptimizer\src\vertexfilter.cpp">
+      <Filter>Common_3\Tools\ThirdParty\OpenSource\meshoptimizer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\OpenSource\meshoptimizer\src\vfetchanalyzer.cpp">
+      <Filter>Common_3\Tools\ThirdParty\OpenSource\meshoptimizer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\OpenSource\meshoptimizer\src\vfetchoptimizer.cpp">
+      <Filter>Common_3\Tools\ThirdParty\OpenSource\meshoptimizer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utilities\FileSystem\ToolFileSystem.c">
+      <Filter>Common_3\Utilities\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AssetPipeline.cpp">
+      <Filter>Common_3\Tools\AssetPipeline\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AssetPipelineCmd.cpp">
+      <Filter>Common_3\Tools\AssetPipeline\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AssetPipeline_Textures.cpp">
+      <Filter>Common_3\Tools\AssetPipeline\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\Resources\AnimationSystem\ThirdParty\OpenSource\TressFX\TressFXAsset.h">
+      <Filter>Common_3\Resources\AnimationSystem\ThirdParty\OpenSource\TressFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Resources\AnimationSystem\ThirdParty\OpenSource\TressFX\TressFXFileFormat.h">
+      <Filter>Common_3\Resources\AnimationSystem\ThirdParty\OpenSource\TressFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\OpenSource\meshoptimizer\src\meshoptimizer.h">
+      <Filter>Common_3\Tools\ThirdParty\OpenSource\meshoptimizer\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AssetPipeline.h">
+      <Filter>Common_3\Tools\AssetPipeline\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

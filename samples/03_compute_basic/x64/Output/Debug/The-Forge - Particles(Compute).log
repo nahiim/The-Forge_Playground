@@ -1,0 +1,70 @@
+date       time     [thread name/id ]                   file:line    v |
+2024-08-04 07:27:45 [MainThread     ]                   Log.c:195   INFO| Opened log file The-Forge - Particles(Compute).log
+2024-08-04 07:27:45 [MainThread     ]         WindowsBase.cpp:407   INFO| Operating System: Windows PC. Version: 10.0 (Build: 19045). Device Name: Unknown.
+2024-08-04 07:27:45 [MainThread     ]       WindowsWindow.cpp:1066   DBG| Monitor index [0] DPI scale = (1.00, 1.00)
+2024-08-04 07:27:45 [MainThread     ]       WindowsWindow.cpp:631   INFO| Created window app The-Forge - Particles(Compute)
+2024-08-04 07:27:45 [MainThread     ]       WindowsWindow.cpp:1066   DBG| Monitor index [0] DPI scale = (1.00, 1.00)
+2024-08-04 07:27:45 [MainThread     ]       WindowsWindow.cpp:1066   DBG| Monitor index [0] DPI scale = (1.00, 1.00)
+2024-08-04 07:27:45 [MainThread     ]       WindowsWindow.cpp:1066   DBG| Monitor index [0] DPI scale = (1.00, 1.00)
+2024-08-04 07:27:45 [MainThread     ]            FileSystem.c:1013  WARN| Resource directory {8} already set on:'C:/Users/User/Desktop/engines/forge_playground/samples/03_compute_basic/x64/Output/Debug/GPUCfg'
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:417   INFO| Default GPU Data:
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:418   INFO|     DefaultGPUPresetLevel set to low
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:420   INFO| GPU vendors:
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:438   INFO|     intel: 0x8086
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:438   INFO|     amd: 0x1002
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:438   INFO|     nvidia: 0x10de
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:438   INFO|     qualcomm: 0x5143
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:896    DBG| Extended Config| GPU Config invalid Field name: 'isheadless'.
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:721    DBG| Invalid GPU Selection rule: 'isHeadLess != 1;'.
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:550   INFO| GPU selection settings:
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:556   INFO|     Rule: graphicqueuesupported == 1
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:556   INFO|     Rule: deviceid == 0
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:556   INFO|     Rule: gpupresetlevel
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:556   INFO|     Rule: vendorid != 32902 && vendorid != 32903 && vendorid != 5692
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:556   INFO|     Rule: directxfeaturelevel
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:556   INFO|     Rule: vram
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:559   INFO| Driver rejections:
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:577   INFO| GPU configuration settings:
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:588   INFO|     maxrootsignaturedwords: vendorid == 4318: 64
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:588   INFO|     maxrootsignaturedwords: vendorid == 4098: 13
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:588   INFO|     maxrootsignaturedwords: vendorid == 4130: 13
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:588   INFO|     maxrootsignaturedwords: vendorid == 5692: 64
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:588   INFO|     maxrootsignaturedwords: vendorid == 32902: 64
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:588   INFO|     maxrootsignaturedwords: vendorid == 32903: 64
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:588   INFO|     dynamicrenderingenabled: vendorid == 5692: 0
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:588   INFO|     dynamicrenderingenabled: vendorid == 32902: 0
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:588   INFO|     dynamicrenderingenabled: vendorid == 32903: 0
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:588   INFO|     tessellationsupported: vendorid == 5045: 0
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:588   INFO|     xclipsetransferqueueworkaroundenabled: deviceid == 29600: 1
+2024-08-04 07:27:45 [MainThread     ]      GraphicsConfig.cpp:590   INFO| User settings:
+2024-08-04 07:27:45 [MainThread     ]           NvApiHelper.h:50    INFO| NVIDIA Display Driver Version 54601
+2024-08-04 07:27:45 [MainThread     ]           NvApiHelper.h:51    INFO| NVIDIA Build Branch r545_96
+2024-08-04 07:27:46 [MainThread     ]              Vulkan.cpp:1365  WARN| vkinstance-layer-missing ( VK_LAYER_KHRONOS_validation )
+2024-08-04 07:27:46 [MainThread     ]              Vulkan.cpp:3384  INFO| Creating VkInstance with 0 enabled instance layers:
+2024-08-04 07:27:46 [MainThread     ]      GraphicsConfig.cpp:1207  INFO| Setting preset level medium for gpu vendor: model:NVIDIA GeForce GTX 1650
+2024-08-04 07:27:46 [MainThread     ]      GraphicsConfig.cpp:1088  INFO| GPU: NVIDIA GeForce GTX 1650, setting maxrootsignaturedwords to 64
+2024-08-04 07:27:46 [MainThread     ]              Vulkan.cpp:4092  INFO| GPU[0] detected. Vendor ID: 0x10de, Model ID: 0x1f91, Preset: medium, GPU Name: NVIDIA GeForce GTX 1650
+2024-08-04 07:27:46 [MainThread     ]              Vulkan.cpp:3521  INFO| GPU[0] is selected as default GPU
+2024-08-04 07:27:46 [MainThread     ]              Vulkan.cpp:3522  INFO| Name of selected gpu: NVIDIA GeForce GTX 1650
+2024-08-04 07:27:46 [MainThread     ]              Vulkan.cpp:3523  INFO| Vendor id of selected gpu: 0x10de
+2024-08-04 07:27:46 [MainThread     ]              Vulkan.cpp:3524  INFO| Model id of selected gpu: 0x1f91
+2024-08-04 07:27:46 [MainThread     ]              Vulkan.cpp:3525  INFO| Preset of selected gpu: medium
+2024-08-04 07:27:46 [MainThread     ]              Vulkan.cpp:3865  INFO| Successfully loaded Dedicated Allocation extension
+2024-08-04 07:27:46 [MainThread     ]              Vulkan.cpp:3879  INFO| Successfully loaded Draw Indirect extension
+2024-08-04 07:27:46 [MainThread     ]              Vulkan.cpp:3900  INFO| Successfully loaded Descriptor Indexing extension
+2024-08-04 07:27:46 [MainThread     ]              Vulkan.cpp:3915  INFO| Successfully loaded 64 bit Shader Atomic extension
+2024-08-04 07:27:46 [MainThread     ]              Vulkan.cpp:3920  INFO| Successfully loaded Dynamic Rendering extension
+2024-08-04 07:27:46 [MainThread     ]              Vulkan.cpp:4330  INFO| GPU supports texture array dynamic indexing
+2024-08-04 07:27:46 [MainThread     ]        ReloadClient.cpp:584    ERR| Error starting the ReloadServer process:
+ReloadServer [HOST]: server is already running on port 6543
+
+
+2024-08-04 07:27:46 [MainThread     ]       WindowsWindow.cpp:1066   DBG| Monitor index [0] DPI scale = (1.00, 1.00)
+2024-08-04 07:27:46 [MainThread     ]                  UI.cpp:2255  WARN| uiCreateComponent() uses an unknown font id (0).  Will fallback to default UI font.
+2024-08-04 07:27:46 [MainThread     ]       WindowsWindow.cpp:1066   DBG| Monitor index [0] DPI scale = (1.00, 1.00)
+2024-08-04 07:27:46 [MainThread     ]                  UI.cpp:2255  WARN| uiCreateComponent() uses an unknown font id (0).  Will fallback to default UI font.
+2024-08-04 07:27:46 [MainThread     ]                  UI.cpp:2255  WARN| uiCreateComponent() uses an unknown font id (0).  Will fallback to default UI font.
+2024-08-04 07:27:46 [MainThread     ]                  UI.cpp:2255  WARN| uiCreateComponent() uses an unknown font id (0).  Will fallback to default UI font.
+2024-08-04 07:27:46 [MainThread     ]              Vulkan.cpp:4804  INFO| Adding Vulkan swapchain @ 1152x648
+2024-08-04 07:27:46 [MainThread     ]         WindowsBase.cpp:576   INFO| Application Init+Load+Reload 0.726000ms
+2024-08-04 07:27:52 [MainThread     ]                   Log.c:153   INFO| Shutting down log system.

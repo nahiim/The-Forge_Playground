@@ -1,0 +1,34 @@
+﻿  GainputAllocator.cpp
+  GainputInputDeltaState.cpp
+  GainputInputDevice.cpp
+  GainputInputManager.cpp
+  GainputInputMap.cpp
+  GainputInputState.cpp
+  GainputMapFilters.cpp
+  GainputInputDeviceBuiltIn.cpp
+  GainputDev.cpp
+  GainputMemoryStream.cpp
+  gainput.cpp
+  GainputButtonStickGesture.cpp
+  GainputDoubleClickGesture.cpp
+  GainputHoldGesture.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  GainputPinchGesture.cpp
+  GainputRotateGesture.cpp
+  GainputSimultaneouslyDownGesture.cpp
+  GainputTapGesture.cpp
+  GainputInputDeviceKeyboard.cpp
+  GainputInputDeviceMouse.cpp
+  GainputInputDevicePad.cpp
+  GainputInputPlayer.cpp
+  GainputInputRecorder.cpp
+  GainputInputRecording.cpp
+  GainputInputDeviceTouch.cpp
+  GainputHID.cpp
+  GainputHIDWhitelist.cpp
+  HIDParserPS4Controller.cpp
+  HIDParserPS5Controller.cpp
+  HIDParserSwitchController.cpp
+  hid.c
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  gainputstatic.vcxproj -> C:\Dev\CONFETTI\The-Forge\Examples_3\Unit_Tests\PC Visual Studio 2019\x64\Debug\gainputstatic.lib

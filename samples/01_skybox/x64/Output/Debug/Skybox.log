@@ -1,0 +1,41 @@
+date       time     [thread name/id ]                   file:line    v |
+2024-08-06 10:48:10 [MainThread     ]                   Log.c:195   INFO| Opened log file Skybox.log
+2024-08-06 10:48:10 [MainThread     ]         WindowsBase.cpp:407   INFO| Operating System: Windows PC. Version: 10.0 (Build: 19045). Device Name: Unknown.
+2024-08-06 10:48:10 [MainThread     ]       WindowsWindow.cpp:1066   DBG| Monitor index [0] DPI scale = (1.00, 1.00)
+2024-08-06 10:48:10 [MainThread     ]       WindowsWindow.cpp:631   INFO| Created window app Skybox
+2024-08-06 10:48:10 [MainThread     ]       WindowsWindow.cpp:1066   DBG| Monitor index [0] DPI scale = (1.00, 1.00)
+2024-08-06 10:48:10 [MainThread     ]       WindowsWindow.cpp:1066   DBG| Monitor index [0] DPI scale = (1.00, 1.00)
+2024-08-06 10:48:10 [MainThread     ]       WindowsWindow.cpp:1066   DBG| Monitor index [0] DPI scale = (1.00, 1.00)
+2024-08-06 10:48:10 [MainThread     ]   WindowsFileSystem.cpp:307    ERR| Error opening file: C:\Users\User\Desktop\engines\forge_playground\samples\01_skybox\x64\Output\Debug\GPUCfg\gpu.data -- rb (error: No such file or directory)
+2024-08-06 10:48:10 [MainThread     ]      GraphicsConfig.cpp:289   WARN| gpu.data could not be found, setting preset will be set to Low as a default.
+2024-08-06 10:48:10 [MainThread     ]   WindowsFileSystem.cpp:307    ERR| Error opening file: C:\Users\User\Desktop\engines\forge_playground\samples\01_skybox\x64\Output\Debug\GPUCfg\gpu.cfg -- rb (error: No such file or directory)
+2024-08-06 10:48:10 [MainThread     ]      GraphicsConfig.cpp:454   WARN| gpu.cfg could not be found, first gpu found set as active gpu.
+2024-08-06 10:48:10 [MainThread     ]           NvApiHelper.h:50    INFO| NVIDIA Display Driver Version 54601
+2024-08-06 10:48:10 [MainThread     ]           NvApiHelper.h:51    INFO| NVIDIA Build Branch r545_96
+2024-08-06 10:48:11 [MainThread     ]              Vulkan.cpp:1365  WARN| vkinstance-layer-missing ( VK_LAYER_KHRONOS_validation )
+2024-08-06 10:48:11 [MainThread     ]              Vulkan.cpp:3384  INFO| Creating VkInstance with 0 enabled instance layers:
+2024-08-06 10:48:11 [MainThread     ]      GraphicsConfig.cpp:1213  WARN| Couldn't find gpu  model: NVIDIA GeForce GTX 1650 in gpu.data. Setting preset to low as a default.
+2024-08-06 10:48:11 [MainThread     ]              Vulkan.cpp:4092  INFO| GPU[0] detected. Vendor ID: 0x10de, Model ID: 0x1f91, Preset: low, GPU Name: NVIDIA GeForce GTX 1650
+2024-08-06 10:48:11 [MainThread     ]              Vulkan.cpp:3521  INFO| GPU[0] is selected as default GPU
+2024-08-06 10:48:11 [MainThread     ]              Vulkan.cpp:3522  INFO| Name of selected gpu: NVIDIA GeForce GTX 1650
+2024-08-06 10:48:11 [MainThread     ]              Vulkan.cpp:3523  INFO| Vendor id of selected gpu: 0x10de
+2024-08-06 10:48:11 [MainThread     ]              Vulkan.cpp:3524  INFO| Model id of selected gpu: 0x1f91
+2024-08-06 10:48:11 [MainThread     ]              Vulkan.cpp:3525  INFO| Preset of selected gpu: low
+2024-08-06 10:48:11 [MainThread     ]              Vulkan.cpp:3865  INFO| Successfully loaded Dedicated Allocation extension
+2024-08-06 10:48:11 [MainThread     ]              Vulkan.cpp:3879  INFO| Successfully loaded Draw Indirect extension
+2024-08-06 10:48:11 [MainThread     ]              Vulkan.cpp:3900  INFO| Successfully loaded Descriptor Indexing extension
+2024-08-06 10:48:11 [MainThread     ]              Vulkan.cpp:3915  INFO| Successfully loaded 64 bit Shader Atomic extension
+2024-08-06 10:48:11 [MainThread     ]              Vulkan.cpp:3920  INFO| Successfully loaded Dynamic Rendering extension
+2024-08-06 10:48:11 [MainThread     ]              Vulkan.cpp:4330  INFO| GPU supports texture array dynamic indexing
+2024-08-06 10:48:11 [MainThread     ]   WindowsFileSystem.cpp:307    ERR| Error opening file: C:\Users\User\Desktop\engines\forge_playground\samples\01_skybox\x64\Output\Debug\CompiledShaders\reload-server.txt -- rb (error: No such file or directory)
+2024-08-06 10:48:11 [MainThread     ]        ReloadClient.cpp:278    ERR| Failed to read `reload-server.txt` from disk in mount point RD_SHADER_BINARIES. This is likely an internal bug - please check that this file is in the `CompiledShaders` directory.
+2024-08-06 10:48:11 [MainThread     ]      ResourceLoader.cpp:2592   ERR| Failed to initialize ReloadServer
+2024-08-06 10:48:11 [MainThread     ]       WindowsWindow.cpp:1066   DBG| Monitor index [0] DPI scale = (1.00, 1.00)
+2024-08-06 10:48:11 [MainThread     ]                  UI.cpp:2255  WARN| uiCreateComponent() uses an unknown font id (0).  Will fallback to default UI font.
+2024-08-06 10:48:11 [MainThread     ]       WindowsWindow.cpp:1066   DBG| Monitor index [0] DPI scale = (1.00, 1.00)
+2024-08-06 10:48:11 [MainThread     ]                  UI.cpp:2255  WARN| uiCreateComponent() uses an unknown font id (0).  Will fallback to default UI font.
+2024-08-06 10:48:11 [MainThread     ]                  UI.cpp:2255  WARN| uiCreateComponent() uses an unknown font id (0).  Will fallback to default UI font.
+2024-08-06 10:48:11 [MainThread     ]                  UI.cpp:2255  WARN| uiCreateComponent() uses an unknown font id (0).  Will fallback to default UI font.
+2024-08-06 10:48:11 [MainThread     ]              Vulkan.cpp:4804  INFO| Adding Vulkan swapchain @ 1152x648
+2024-08-06 10:48:11 [MainThread     ]         WindowsBase.cpp:576   INFO| Application Init+Load+Reload 0.706000ms
+2024-08-06 10:48:17 [MainThread     ]                   Log.c:153   INFO| Shutting down log system.
